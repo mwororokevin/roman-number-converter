@@ -20,9 +20,3 @@ def roman_converter(number):
     roman_number += less_than_ten[math.floor(number)]
     
     return roman_number
-
-print(roman_converter(number))
-
-for i in range(0, 1000, 50):
-    print(roman_converter(i))
-
